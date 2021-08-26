@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box,Stack, Text } from "@chakra-ui/react"
+import { Box,HStack,Stack, Text } from "@chakra-ui/react"
 import Newsblock from './Newsblock';
 function News() {
   return (
@@ -21,7 +21,10 @@ function News() {
           }}>
             <Stack>
                 <Box h="27.25px" w="100%" bg="#080E2C">
-                    <Text fontWeight="bold" textAlign="center" color="white"> NEWS </Text>
+                  <HStack paddingLeft="5px">
+                  <img src="https://img.icons8.com/fluency-systems-filled/20/ffffff/news.png"/>
+                  <Text fontWeight="bold" textAlign="center" color="white"> NEWS </Text>
+                  </HStack>
                 </Box>
                 <Newsblock/>
             </Stack>

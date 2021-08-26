@@ -1,9 +1,9 @@
 import React from 'react';
-import { Box,stack, Text } from "@chakra-ui/react"
+import { Box , Text } from "@chakra-ui/react"
 var info = 
 [
     {
-    "name" : "Hari Krishan N",
+    "name" : "Hari Krishna N",
     },
     {
     "name" : "Swapnika",
@@ -25,7 +25,7 @@ function Teamblock() {
             <Text paddingBottom="15px" fontSize="16" fontWeight="bold" textAlign="center" color="#FFFFFF">
             TEAM MEMBERS
             </Text>
-            <Box h="2px" w="100%" bg="white"/>
+            <Box h="2px" w="100%" bg="#44EABB"/>
             {info.map((data) => {
                 return(
                 <Box>
@@ -34,7 +34,7 @@ function Teamblock() {
                     {data.name}
                     </Text>
                 </Box>
-                <Box h="2px" w="100%" bg="white"/>
+                <Box h="2px" w="100%" bg="#44EABB"/>
                 </Box>
             )})}
             </stack>

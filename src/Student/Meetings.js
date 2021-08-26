@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box,Stack, Text } from "@chakra-ui/react"
+import { Box,Stack, Text,HStack } from "@chakra-ui/react"
 import Meetingblock from './Meetingblock';
 function Meetings() {
     return (
@@ -21,7 +21,10 @@ function Meetings() {
             }}>
                 <Stack>
                     <Box h="27.25px" w="100%" bg="#080E2C">
-                        <Text textAlign="center"  fontWeight="bold" color="white"> UPCOMING MEETINGS </Text>
+                    <HStack paddingLeft="5px">
+                    <img src="https://img.icons8.com/ios-filled/20/ffffff/meeting-room.png"/>
+                    <Text textAlign="center"  fontWeight="bold" color="white"> UPCOMING MEETINGS </Text>
+                    </HStack>
                     </Box>
                     <Meetingblock/>
                 </Stack>

@@ -20,7 +20,6 @@ function Newsblock() {
         <Box>
             <Stack>
             {data.map((info) => {
-                console.log(info);
                 return(
                 <Box>
                 <Box paddingLeft="5px" py="5px" h="100%" w="100%" bg="#F3FDFB">
