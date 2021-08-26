@@ -38,7 +38,7 @@ function Dashboard() {
             buttons={<i />}
             container="card"
             style={{border: '2px solid #080E2C'}}
-            cardHeaderStyle={{backgroundColor: '#080E2C',fontWeight:"bold"}}
+            cardHeaderStyle={{backgroundColor: '#080E2C',fontSize:"16px",fontWeight:"bold"}}
             contentStyle ={{backgroundColor: '#D8E8E4',fontWeight:"bold"}}
           >
 
