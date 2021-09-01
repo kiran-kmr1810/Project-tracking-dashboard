@@ -39,16 +39,15 @@ function Dashboard() {
             container="card"
             style={{border: '2px solid #080E2C'}}
             cardHeaderStyle={{backgroundColor: '#080E2C',fontSize:"16px",fontWeight:"bold"}}
-            contentStyle ={{backgroundColor: '#D8E8E4',fontWeight:"bold"}}
-          >
-
-        {info.summary}
-        <HStack paddingTop="10px">
-        <img src="https://img.icons8.com/material-sharp/24/000000/planner.png"/>
-        <Text fontSize="12" fontWeight="extrabold" textAlign="right" color="#080E2C">{info.date} - {info.time}</Text>
-        </HStack>
-        </TimelineEvent>
-        )})}
+            contentStyle ={{backgroundColor: '#D8E8E4',fontWeight:"bold"}}>
+            {info.summary}
+            <HStack paddingTop="10px">
+            <img src="https://img.icons8.com/material-sharp/24/000000/planner.png"/>
+            <Text fontSize="12" fontWeight="extrabold" textAlign="right" color="#080E2C">{info.date} - {info.time}</Text>
+            </HStack>
+            </TimelineEvent>
+            )
+        })}
         </Timeline>
         </Box>
     </div>
