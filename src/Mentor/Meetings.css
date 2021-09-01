@@ -1,0 +1,96 @@
+.title {
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid white;
+    background-color: #080E2C;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+    padding-bottom: 5px;
+    margin-bottom: 1.5rem;
+}
+
+.title:focus {
+    border-bottom: 2px solid #44EABB;
+    transition: border-bottom 0.5s linear 0.5s;
+}
+
+.date-label {
+    color:white;
+    font-weight: normal;
+}
+
+.date {
+    background-color: #080E2C;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.start-time-label{
+    margin-left: -45px;
+    color: white;
+}
+
+.start-time {
+    background-color: #080E2C;
+    color:white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.25rem;
+    width: 120px;
+}
+
+.end-time-label {
+    margin-left: -45px;
+    color: white;
+}
+
+.end-time {
+    background-color: #080E2C;
+    color:white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.25rem;
+    width: 120px;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.option {
+    color: white;
+}
+
+.team {
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid white;
+    background-color: #080E2C;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: white;
+    font-weight: normal;
+    padding-bottom: 5px;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+.team:focus {
+    border-bottom: 2px solid #44EABB;
+    transition: border-bottom 0.5s linear 0.5s;
+}

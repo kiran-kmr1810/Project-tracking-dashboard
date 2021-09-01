@@ -1,0 +1,44 @@
+.list {
+    padding-top: 100px;
+    padding-left: 25rem;
+}
+.project-card {
+    width: 500px;
+    height: 170px;
+    background-color: #D8E8E4;
+    border-radius: 20px;
+    margin-bottom: 3rem;
+    border: 1px solid black;
+}
+
+.project-card:hover {
+    background-color: #D8E8EA;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);;
+}
+
+.project-title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 1rem;
+}
+
+
+.project-field {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 1rem;
+}
+
+.project-group {
+    float: left;
+    margin-left: 3rem;
+    font-weight: 500;
+}
+
+.project-branch {
+    float: right;
+    margin-right: 3rem;
+    font-weight: 500;
+}
