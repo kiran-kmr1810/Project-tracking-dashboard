@@ -1,0 +1,36 @@
+.member-name {
+    float: left;
+    color: white;
+    font-size: 18px;
+    width: 50%;
+    padding-bottom: 5px;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+.member-marks {
+    float: right;
+    text-align: center;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid white;
+    background-color: #080E2C;
+    font-size: 18px;
+    color: white;
+    font-weight: normal;
+    padding-bottom: 5px;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    width: 35%;
+    
+}
+
+.member-marks:focus{
+    border-bottom: 1px solid#44EABB;
+    transition: border-bottom 0.5s linear 0.5s;
+}
+
+.divide {
+    width: 100%;
+    border-bottom: 1px solid #44EABB;
+}

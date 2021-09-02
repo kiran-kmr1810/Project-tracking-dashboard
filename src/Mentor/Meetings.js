@@ -50,15 +50,14 @@ function Meetings() {
                         backgroundColor: 'rgba(255,255,255,0.75)'
                     },
                     content: {
-                        position: 'absolute',
-                        top: '122px',
-                        bottom: '122px',
-                        left: '575px',
-                        right: '575px',
+                        top: '50%',
+                        bottom: 'auto',
+                        left: '50%',
+                        right: '50%',
+                        minWidth: '25rem',
                         borderRadius: '20px',
                         backgroundColor: "#080E2C",
-                        overflow: 'auto',
-                        outline: 'none',
+                        transform: 'translate(-50%, -50%)',
                         padding: '40px'
                     }
                 }

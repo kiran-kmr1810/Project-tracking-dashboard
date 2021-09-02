@@ -4,6 +4,7 @@ import "./ProjectList.css";
 function ProjectList() {
     return (
         <div className="list">
+            <div className="project-head">Project List</div>
             <div className="project-card">
                 <div className="project-title">
                     Fire Detection using Deep Learning
