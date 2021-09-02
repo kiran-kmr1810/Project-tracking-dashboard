@@ -38,12 +38,12 @@ function Dashboard() {
       <Text
         fontSize="20px"
         fontWeight="bold"
-        paddingTop="70px"
-        marginLeft="360px"
+        paddingTop="60px"
+        marginLeft="400px"
       >
         Fire Detection using Deep Learning
       </Text>
-      <Box pos="fixed" h="520px" w="620px" top="110px" left="300px">
+      <Box pos="fixed" h="520px" w="620px" top="80px" left="275px">
         <Timeline lineColor="#44EABB">
           {data.map((info) => {
             return (
@@ -141,18 +141,18 @@ function Dashboard() {
             <Box>
               <div className="divide"></div>
               <div className="member-name">Harikrishna</div>
-              <input className="member-marks" type="text" placeholder='80'></input>
+              <input className="member-marks" type="text" placeholder='0'></input>
               <div className="member-name">Swapnika</div>
-              <input className="member-marks" type="text" placeholder='80'></input>
+              <input className="member-marks" type="text" placeholder='0'></input>
            
               <div className="member-name">Kirankumar</div>
-              <input className="member-marks" type="text" placeholder='80'></input>
+              <input className="member-marks" type="text" placeholder='0'></input>
             
               <div className="member-name">Ragul</div>
-              <input className="member-marks" type="text" placeholder='80'></input>
+              <input className="member-marks" type="text" placeholder='0'></input>
            
               <div className="member-name">Saiteja</div>
-              <input className="member-marks" type="text" placeholder='80'></input>
+              <input className="member-marks" type="text" placeholder='0'></input>
             </Box>
             <Button
               marginLeft="100"

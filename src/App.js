@@ -13,8 +13,8 @@ function App() {
       {/*<Login/>*/}
       {/*<Mentor/>*/}
       {/*<Admin/>*/}
-      {/*<Panel>*/}
-      <Batch/>
+      {/*<Batch/>*/}
+      <Panel/>
     </div>
   );
 }
