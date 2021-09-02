@@ -33,7 +33,12 @@ function Meetings() {
                         <img src="https://img.icons8.com/ios-filled/20/ffffff/meeting-room.png"/>
                         <Text textAlign="center" fontSize="12px" fontWeight="bold" color="white"> UPCOMING MEETINGS </Text>
                         </HStack>
-                        <Button float="right" onClick={() => setModalIsOpen(true)} h="25px" marginRight="2" fontWeight="normal" color="black" size="md" colorScheme="teal" backgroundColor="#44EABB"> Schedule Meeting </Button>
+                        <Button float="right" 
+                        top="2px" onClick={() => setModalIsOpen(true)} h="20px" 
+                        marginRight="2" fontWeight="normal" color="black" 
+                        backgroundColor="#44EABB" fontWeight="bold"
+                        fontSize="12px" textAlign="center" > 
+                        SCHEDULE MEETING </Button>
                     </Box>
                     <Meetingblock/>
                 </Stack>

@@ -33,7 +33,12 @@ function News() {
                   <img src="https://img.icons8.com/fluency-systems-filled/20/ffffff/news.png"/>
                   <Text fontWeight="bold" color="white"> NEWS </Text>
                   </HStack>
-                  <Button float="right" onClick={() => setModalIsOpen(true)} h="25px" marginRight="2" fontWeight="normal" color="black" size="md" colorScheme="teal" backgroundColor="#44EABB"> Broadcast Info </Button>
+                  <Button float="right" 
+                  top="2px" onClick={() => setModalIsOpen(true)} h="20px" 
+                  marginRight="2" fontWeight="normal" color="black" 
+                  backgroundColor="#44EABB" fontWeight="bold"
+                  fontSize="12px" textAlign="center"> 
+                  BROADCAST NEWS</Button>
                 </Box>
                 <Newsblock/>
             </Stack>
