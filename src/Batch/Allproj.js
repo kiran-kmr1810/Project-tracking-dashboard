@@ -1,5 +1,17 @@
-import "./ProjectList.css";
+import "../Mentor/ProjectList.css";
 var data = [
+    {
+    "title" : "Fire Detection using Deep Learning",
+    "field" : "Machine Learning",
+    "group" : "Group - 21",
+    "branch" : "CSE(2021)"
+    },
+    {
+    "title" : "Fire Detection using Deep Learning",
+    "field" : "Machine Learning",
+    "group" : "Group - 21",
+    "branch" : "CSE(2021)"
+    },
     {
     "title" : "Fire Detection using Deep Learning",
     "field" : "Machine Learning",
@@ -14,7 +26,7 @@ var data = [
     },
 ];
 
-function ProjectList() {
+function Allproj() {
     return (
         <div className="list">
             <div className="project-head">PROJECT LIST</div>
@@ -39,4 +51,4 @@ function ProjectList() {
     )
 }
 
-export default ProjectList;
+export default Allproj;

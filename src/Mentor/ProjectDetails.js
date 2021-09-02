@@ -1,27 +1,36 @@
-import { Box,stack, Text } from "@chakra-ui/react"
+import { Box,Text } from "@chakra-ui/react"
 
 var info = 
+[
 {
-    "proj1" : "Fire detection using DL",
-    "proj2" : "Key frame in video analytics"
-};
+    "proj" : "Fire detection using DL",
+},
+{
+    "proj" : "Key frame in video analytics",
+}
+];
 
 function ProjectDetails() {
     return (
     <div>
-        <Box pos="fixed" top="195px" left="20px" bg="#080E2C" h="170px" w="230px" 
-         borderWidth ="2px" borderColor="#44EABB" paddingTop="10px" borderRadius="15">
+        <Box pos="fixed" top="195px" left="20px" bg="#080E2C" h="130px" w="230px" borderRadius="15" 
+         borderWidth ="2px" paddingTop="10px" borderColor="#44EABB" borderWidth ="2px">
             <stack>
             <Text paddingBottom="10px" fontSize="16" fontWeight="bold" textAlign="center" color="#FFFFFF">
             PROJECT DETAILS
             </Text>
             <Box h="2px" w="100%" bg="#44EABB"/>
-            <Text paddingTop="15px" paddingLeft="20px" fontSize="16" fontWeight="normal" color="#FFFFFF">
-            {info.proj1}
-            </Text>
-            <Text paddingTop="15px" paddingLeft="20px" fontSize="16" fontWeight="normal" color="#FFFFFF">
-            {info.proj2}
-            </Text>
+            {info.map((data) => {
+                return(
+                <Box>
+                <Box paddingLeft="5px" py="5px" h="100%" w="100%" bg="#080E2C">
+                    <Text fontSize="14" fontWeight="bold" textAlign="Left" color="white">
+                    {data.proj}
+                    </Text>
+                </Box>
+                <Box h="2px" w="100%" bg="#44EABB"/>
+                </Box>
+            )})}
             </stack>
         </Box>
     </div>

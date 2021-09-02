@@ -1,14 +1,20 @@
 import React from 'react';
 import Login from './Login';
 import Student from './Student/Student';
+import Mentor from './Mentor/Mentor'
+import Admin from './Admin/Admin';
+import Batch from './Batch/Batch';
 import Panel from './Panel/Panel';
-import Mentor from './Mentor/Mentor';
 
 function App() {
   return (
     <div>
       {/*<Student/>*/}
-      <Login/>
+      {/*<Login/>*/}
+      {/*<Mentor/>*/}
+      {/*<Admin/>*/}
+      {/*<Batch/>*/}
+      <Panel/>
     </div>
   );
 }

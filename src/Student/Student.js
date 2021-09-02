@@ -6,7 +6,7 @@ import Mentorblock from './Mentorblock';
 import Nameblock from './Nameblock';
 import News from './News';
 import Teamblock from './Teamblock';
-function Admin() {
+function Student() {
   return (
     <div>
         <Navbar/>
@@ -20,4 +20,4 @@ function Admin() {
   );
 }
 
-export default Admin;
+export default Student;
