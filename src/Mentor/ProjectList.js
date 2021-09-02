@@ -1,18 +1,5 @@
 import "./ProjectList.css";
-import {Stack} from "@chakra-ui/react"
 var data = [
-    {
-    "title" : "Fire Detection using Deep Learning",
-    "field" : "Machine Learning",
-    "group" : "Group - 21",
-    "branch" : "CSE(2021)"
-    },
-    {
-    "title" : "Fire Detection using Deep Learning",
-    "field" : "Machine Learning",
-    "group" : "Group - 21",
-    "branch" : "CSE(2021)"
-    },
     {
     "title" : "Fire Detection using Deep Learning",
     "field" : "Machine Learning",

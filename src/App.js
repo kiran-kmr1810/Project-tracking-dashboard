@@ -4,6 +4,8 @@ import Student from './Student/Student';
 import Mentor from './Mentor/Mentor'
 import Admin from './Admin/Admin';
 import Batch from './Batch/Batch';
+import Panel from './Panel/Panel';
+
 function App() {
   return (
     <div>
@@ -11,6 +13,7 @@ function App() {
       {/*<Login/>*/}
       {/*<Mentor/>*/}
       {/*<Admin/>*/}
+      {/*<Panel>*/}
       <Batch/>
     </div>
   );
