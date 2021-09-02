@@ -1,6 +1,6 @@
 .list {
-    padding-top: 100px;
-    padding-left: 25rem;
+    padding-top: 80px;
+    padding-left: 300px;
 }
 .project-card {
     width: 500px;
@@ -16,9 +16,15 @@
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);;
 }
 
+.project-head {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
 .project-title {
     text-align: center;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 25px;
     padding: 1rem;
 }
