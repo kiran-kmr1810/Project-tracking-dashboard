@@ -10,11 +10,13 @@ function App() {
   return (
     <div>
       {/*<Student/>*/}
-      {/*<Login/>*/}
-      {/*<Mentor/>*/}
       {/*<Admin/>*/}
-      {/*<Batch/>*/}
-      <Panel/>
+
+      {/*<Login/>*/}
+      <Batch/>
+
+      {/*<Panel/>*/}
+      {/*<Mentor/>*/}
     </div>
   );
 }

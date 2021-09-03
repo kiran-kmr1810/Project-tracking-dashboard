@@ -36,7 +36,7 @@ function Projectbox() {
                 color="white"
                 isTruncated
                 >
-                10890
+                Fire Detection
                 </Box>
                 <Box
                 mt="1"
@@ -75,7 +75,7 @@ function Projectbox() {
               <PopoverArrow />
               <PopoverHeader>
               <Text color='white' fontSize='s' fontWeight='bold'>
-              10890
+              Fire Detection
               </Text>
             </PopoverHeader>
               <PopoverBody>
@@ -83,7 +83,7 @@ function Projectbox() {
                     <Stack spacing='3px'>
                     <HStack spacing='1px'>
                     <Text color='#E0DED2' fontSize='xs' fontWeight='bold'>DETAILS</Text>
-                    <Text color='#E0DED2' fontSize='xs' fontWeight='bold'>: Blah blah</Text>
+                    <Text color='#E0DED2' fontSize='xs' fontWeight='bold'>: Fire Detection using deep learning</Text>
                     </HStack>
                     </Stack>
                 </Box>

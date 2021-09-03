@@ -1,14 +1,14 @@
 import React from 'react';
 import Navbar from '../Components/Navbar'
 import Nameblock from './Nameblock';
-import News from '../Mentor/News';
+import Newsbatch from './Newsbatch';
 import Allproj from './Allproj';
 function Student() {
   return (
     <div>
         <Navbar/>
         <Nameblock/>
-        <News/>
+        <Newsbatch/>
         <Allproj/>
     </div>
   );
