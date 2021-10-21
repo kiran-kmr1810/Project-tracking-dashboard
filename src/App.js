@@ -9,11 +9,11 @@ import Panel from './Panel/Panel';
 function App() {
   return (
     <div>
+      <Login/>
+      {/*<Batch/>*/}
+
       {/*<Student/>*/}
       {/*<Admin/>*/}
-
-      {/*<Login/>*/}
-      <Batch/>
 
       {/*<Panel/>*/}
       {/*<Mentor/>*/}
