@@ -8,7 +8,7 @@ function Sidedesign() {
         left="0px"
         w="300px"
         h="100%"
-        bg="#555B53"
+        bg="#080E2C"
         />
     </div>
   );

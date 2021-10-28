@@ -21,10 +21,10 @@ function Projectbox() {
             <Box
             as="button"
             fontWeight="bold"
-            borderRadius="md"
-            bgColor = "#555B53"
+            borderWidth ="2px" borderColor="#44EABB" borderRadius="15"
+            bg = "#080E2C"
             shadow="md"
-            _hover={{bg:"Black"}}
+            _hover={{text:"#F3FDFB"}}
             h = "100%"
             w = "200px">
             <Box
@@ -43,7 +43,7 @@ function Projectbox() {
                 as="h5"
                 fontSize='sm'
                 lineHeight="tight"
-                color="#E0DED2"
+                color="#ffffff"
                 isTruncated
                 >
                 Dept: CSE
@@ -53,7 +53,7 @@ function Projectbox() {
                 as="h4"
                 fontSize='sm'
                 lineHeight="tight"
-                color="#E0DED2"
+                color="#ffffff"
                 isTruncated
                 >
                 Area: Machine Learning
@@ -63,7 +63,7 @@ function Projectbox() {
                 as="h4"
                 fontSize='sm'
                 lineHeight="tight"
-                color="#E0DED2"
+                color="#ffffff"
                 isTruncated
                 >
                 Year: 2021
@@ -71,7 +71,7 @@ function Projectbox() {
             </Box>
             </PopoverTrigger>
             <Portal>
-            <PopoverContent bgColor='#555B53'>
+            <PopoverContent bgColor='#080E2C'>
               <PopoverArrow />
               <PopoverHeader>
               <Text color='white' fontSize='s' fontWeight='bold'>
@@ -82,8 +82,8 @@ function Projectbox() {
                 <Box>
                     <Stack spacing='3px'>
                     <HStack spacing='1px'>
-                    <Text color='#E0DED2' fontSize='xs' fontWeight='bold'>DETAILS</Text>
-                    <Text color='#E0DED2' fontSize='xs' fontWeight='bold'>: Fire Detection using deep learning</Text>
+                    <Text color='#D8E8E4' fontSize='xs' fontWeight='bold'>DETAILS</Text>
+                    <Text color='#D8E8E4' fontSize='xs' fontWeight='bold'>: Fire Detection using deep learning</Text>
                     </HStack>
                     </Stack>
                 </Box>
