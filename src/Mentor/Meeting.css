@@ -1,4 +1,4 @@
-.news-block {
+.meeting-block {
     padding: 1rem;
     margin: 0.5rem;
     border-radius: 5px;
@@ -6,15 +6,17 @@
     background-color: white;
 }
 
-.news-block:hover {
+.meeting-block:hover {
     box-shadow: 2px 4px 4px #999;
 }
 
-.news-block h5 {
+.meeting-block h5{
     font-size: 16px;
-    margin-bottom: 0.5rem;
 }
 
-.news-block p {
-    font-size: 13px;
+.meeting-block span {
+    font-size: 12px;
+    opacity: 1;
+    background-color: white;
+    color: var(--primary);
 }

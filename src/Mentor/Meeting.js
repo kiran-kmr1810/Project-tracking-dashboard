@@ -1,35 +1,32 @@
 import { useState } from 'react';
 import Modal from 'react-modal';
 
-import BroadcastInfo from './BroadcastInfo';
+import ScheduleMeeting from './ScheduleMeeting';
 
 import '../Components/components.css';
-import './News.css';
+import './Meeting.css';
 
-function MentorNews () {
+function MentorMeeting () {
 
     const [modalIsOpen, setModalIsOpen] = useState(false);
 
     return (
         <div className="nm-block">
             <div className="nm-header">
-                <h3>NEWS</h3>
-                <button onClick={() => setModalIsOpen(true)}>Broadcast Info</button>
+                <h3>MEETINGS</h3>
+                <button onClick={() => setModalIsOpen(true)}>Schedule Meeting</button>
             </div>
             <div className="nm-body">
-                <div className="news-block">
+                <div className="meeting-block">
                     <h5>Review - 1</h5>
-                    <p>Review - 1 is scheduled on Tuesday</p>
+                    <div><span className="title">DATE: </span><span>28/08/2021 (Saturday)</span></div>
+                    <div><span className="title">TIME: </span><span>10:30 - 12:00</span></div>
                 </div>
-                <div className="news-block">
+                <div className="meeting-block">
                     <h5>Review - 1</h5>
-                    <p>Review - 1 is scheduled on Tuesday</p>
+                    <div><span className="title">DATE: </span><span>28/08/2021 (Saturday)</span></div>
+                    <div><span className="title">TIME: </span><span>10:30 - 12:00</span></div>
                 </div>
-                <div className="news-block">
-                    <h5>Review - 1</h5>
-                    <p>Review - 1 is scheduled on Tuesday</p>
-                </div>
-                
             </div>
 
             <Modal 
@@ -58,11 +55,11 @@ function MentorNews () {
             }}>
 
                 <div className="modal-header">
-                    <h1 className="modal-title">Broadcast</h1>
+                    <h1 className="modal-title">Schedule Meeting</h1>
                     <h1 className="close-button" onClick={() => setModalIsOpen(false)}>x</h1>
                 </div>
                 <div className="modal-body">
-                    <BroadcastInfo />
+                    <ScheduleMeeting />
                 </div>
             
             </Modal>
@@ -71,4 +68,4 @@ function MentorNews () {
     )
 }
 
-export default MentorNews;
+export default MentorMeeting;

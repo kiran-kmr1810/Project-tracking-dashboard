@@ -1,0 +1,54 @@
+.nm-block {
+    margin: 2rem;
+    background-color: var(--secondary-2);
+}
+
+.nm-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 1rem;
+    background-color: var(--primary);
+}
+
+.nm-header h3 {
+    color: var(--secondary-2);
+}
+
+.nm-header button {
+    padding: 0.5rem;
+    background-color: var(--secondary-1);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.nm-header button:hover {
+    background-color: #00BA8E;
+}
+
+.nm-body {
+    height: 220px;
+    overflow-y: scroll;
+}
+
+.nm-body h5 {
+    font-weight: 700;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--secondary-1);
+    border-radius: 2px;
+}
+
+.alert-error {
+    color: red;
+    margin-top: 0.5rem;
+}

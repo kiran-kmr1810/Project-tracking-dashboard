@@ -3,8 +3,9 @@ import { Box, HStack, Stack, Text, Button } from "@chakra-ui/react"
 import { CloseIcon } from '@chakra-ui/icons';
 import Modal from 'react-modal';
 
-import '../Mentor/News.css'
-import Newsblock from '../Mentor/Newsblock';
+import './News.css'
+import './Meetings.css'
+import Newsblock from './NewsBlock';
 
 function Newsbatch() {
 
