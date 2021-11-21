@@ -68,7 +68,7 @@ function Newacc() {
         (checkroll(id))?
         <AiFillCheckCircle style={{color:"green"}}/>:<GiCancel style={{color:"red"}}/>
       }
-      <Text color="white" fontSize="14px">Password</Text>
+      <Text color="white" fontSize="14px">Roll number</Text>
       </HStack>
 
       </Stack>
