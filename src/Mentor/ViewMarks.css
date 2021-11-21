@@ -1,0 +1,15 @@
+.view-marks-induvidual {
+    margin: 2rem 1rem 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.view-marks-name {
+    font-size: 18px;
+}
+
+.view-marks-marks {
+    font-size: 18px;
+    border-bottom: 2px solid var(--secondary-1);
+    padding: 0.25rem 1.5rem 0.25rem 1.5rem;
+}

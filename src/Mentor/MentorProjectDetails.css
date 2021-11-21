@@ -1,0 +1,16 @@
+.project-details {
+    color: var(--secondary-2);
+    border: 3px solid var(--secondary-1);
+
+}
+
+.project-details h1 {
+    margin-bottom: 1.55rem;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.project-details p {
+    margin-bottom: 1rem;
+    cursor: pointer;
+}

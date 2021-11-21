@@ -1,0 +1,18 @@
+.mentor-nameblock {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 3px solid var(--secondary-1);
+}
+
+.mentor-nameblock h1 {
+    color: var(--secondary-2);
+    margin-bottom: 0.5rem;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.mentor-nameblock p {
+    color: var(--secondary-1);
+    font-weight: 500;
+}

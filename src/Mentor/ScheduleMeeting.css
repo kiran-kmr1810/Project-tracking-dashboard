@@ -1,0 +1,107 @@
+.schedule-title {
+    margin-top: 1.5rem;
+    width: 100%;
+    padding-bottom: 0.75rem;
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid var(--secondary-2);
+    background-color: var(--primary);
+    color: var(--secondary-2);
+    font-size: 20px;
+}
+
+.schedule-title:focus {
+    border-bottom: 2px solid var(--secondary-1);
+    transition: border-bottom 300ms ease-in-out;
+}
+
+.schedule-date-label {
+    margin-top: 1.5rem;
+    color: var(--secondary-2);
+}
+
+.schedule-date {
+    background-color: var(--primary);
+    color: var(--secondary-2);
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.schedule-time-flex {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.schedule-start-time-label {
+    margin-top: 1rem;
+}
+
+.schedule-start-time {
+    margin-top: 0.5rem;
+    background-color: #080E2C;
+    color:var(--secondary-2);
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 120px;
+}
+
+.schedule-end-time-label {
+    margin-top: 1rem;
+}
+
+.schedule-end-time {
+    margin-top: 0.5rem;
+    background-color: #080E2C;
+    color:var(--secondary-2);
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 120px;
+}
+
+.schedule-team {
+    margin-top: 1.5rem;;
+    width: 100%;
+    padding-bottom: 0.75rem;
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid var(--secondary-2);
+    background-color: var(--primary);
+    color: var(--secondary-2);
+    font-size: 16px;
+}
+
+.schedule-team:focus {
+    border-bottom: 2px solid var(--secondary-1);
+}
+
+.schedule-button-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.schedule-button {
+    margin-top: 2rem;
+    padding: 0.75rem;
+    background-color: var(--secondary-1);
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    color: var(--primary);
+}
+
+.schedule-button:hover {
+    background-color: #00BA8E;
+}
+

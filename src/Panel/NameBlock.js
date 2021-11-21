@@ -2,7 +2,7 @@ import { Box, Text } from "@chakra-ui/react"
 
 var info = 
     {
-    "name" : "Jeyakumar G",
+    "name" : "Ms. Jeena KK",
     "role" : "Panel Incharge",
     };
 

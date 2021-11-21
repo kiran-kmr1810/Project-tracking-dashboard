@@ -35,12 +35,3 @@
     border-bottom: 1px solid#44EABB;
     transition: border-bottom 0.5s linear 0.5s;
 }
-
-.divide {
-    width: 100%;
-    border-bottom: 1px solid #44EABB;
-}
-
-.marks-form{
-    color: white;
-}

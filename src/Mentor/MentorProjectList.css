@@ -1,0 +1,76 @@
+.project-list-title {
+    margin: 2rem 2rem 0 2rem;
+    border-bottom: 3px solid var(--secondary-1);
+    display: inline-block;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.project-list h2 {
+    margin-bottom: 0.5rem;
+    color: var(--primary);
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.project-list h4 {
+    font-weight: 400;
+    margin: 0.25rem 0;
+}
+
+.project-list .bottom {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+}
+
+.bottom button {
+    padding: 0.5rem;
+    background-color: var(--secondary-1);
+    outline: none;
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.bottom button:hover {
+    background-color: #00BA8E;
+}
+
+.modal-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.modal-header .modal-title {
+    font-weight: 400;
+    font-size: 2em;
+    color: var(--secondary-2);
+}
+
+.modal-header .close-button {
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 2em;
+    color: var(--secondary-2);
+}
+
+.modal-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.modal-button button {
+    padding: 0.7rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: var(--secondary-1);
+    color: var(--primary);
+    cursor: pointer;
+}

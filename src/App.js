@@ -6,10 +6,13 @@ import Admin from './Admin/Admin';
 import Batch from './Batch/Batch';
 import Panel from './Panel/Panel';
 
+import './App.css';
+
+
 function App() {
   return (
     <div>
-      <Login/>
+      <Admin/>
     </div>
   );
 }

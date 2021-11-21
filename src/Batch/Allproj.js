@@ -1,4 +1,4 @@
-import "../Mentor/ProjectList.css";
+import "./ProjectList.css";
 var data = [
     {
     "title" : "Fire Detection using Deep Learning",

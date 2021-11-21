@@ -11,7 +11,7 @@ import MentorMeeting from "./Meeting";
 
 import './Mentor.css';
 
-function Mentor () {
+function Mentor2 () {
     return (
         <div>
             <Navbar />
@@ -21,7 +21,7 @@ function Mentor () {
                     <MentorProjectDetails />
                 </div>
                 <div className="middle">
-                    <MentorProjectList />
+                    <Dashboard />
                 </div>
                 <div className="right">
                 <MentorNews />
@@ -32,4 +32,4 @@ function Mentor () {
     )
 }
 
-export default Mentor;
+export default Mentor2;

@@ -4,17 +4,15 @@ import { Box , Text } from "@chakra-ui/react"
 var info = 
 [
     {
-    "name" : "Hari Krishna N",
+    "name" : "Ms. Nalinadevi K",
     },
     {
-    "name" : "Swapnika",
+    "name" : "Ms. Jeena KK",
     },
     {
-    "name" : "Ragul A",
+    "name" : "Dr. T.Gireesh Kumar ",
     },
-    {
-    "name" : "Saiteja",
-    },
+    
 ];
 
 function PanelMembers() {

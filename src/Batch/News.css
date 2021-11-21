@@ -1,0 +1,12 @@
+.text-area {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 1rem;
+    border-radius: 3px;
+}
+
+.text-area:focus {
+    border: 2.5px solid #44EABB;
+    transition: border 0.5s linear 0.5s;
+}
